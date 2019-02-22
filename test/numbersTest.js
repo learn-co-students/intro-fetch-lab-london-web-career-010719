@@ -46,7 +46,7 @@ describe("Fetch exercises", () => {
     describe("Pick a Number", () => {
       const div = document.querySelector('#random-math-fact');
       const input = document.querySelector('#pick-a-number');
-      const event = new Event('change');
+      const event = new Event('input');
 
       const fakeData = 'test random math fact';
 
